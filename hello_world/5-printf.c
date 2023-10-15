@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *main - Entry point
- *printf: print "print with proper grammar, but the outcome is a piece of art,"
- *return: Always return 0
+ *main - Prints "print with proper grammar, but the outcome is a piece of art,"
+ *Return: Always return 0
  */
 int main(void)
 {
