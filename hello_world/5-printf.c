@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - start the program and run printf
+ *main - return whats is in printf
  *printf - will print "print with proper grammar, but the outcome is a piece of art,"
  *return - 0 at the end
  */
