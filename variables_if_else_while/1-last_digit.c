@@ -10,6 +10,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	int last_number;
+
 	last_number = n % 10;
 
 	if (last_number > 5)
