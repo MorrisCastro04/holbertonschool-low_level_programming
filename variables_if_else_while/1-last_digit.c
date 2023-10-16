@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ *main - starts the program
+ *description: print if the number is greater of 5 or below 6
+ *Return: Returns 0 always
+ */
 int main(void)
 {
 	int n, last_number;
