@@ -1,12 +1,12 @@
 #include <stdio.h>
-/**
- *
- *
- *
- *
- */
 #include <stdlib.h>
 #include <time.h>
+/**
+ *main - starts the program
+ *Description: the var n will have a number and with if,elseif and else
+ will print if the number is negative, 0 or positive
+ *Return: Return 0 always
+ */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
