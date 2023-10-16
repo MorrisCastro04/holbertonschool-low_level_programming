@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- *
- *
- *
- *
- *
+ *main - starts the program
+ *description: print all the alphabet
+ *Return: Return o always
  */
 
 int main(void)
