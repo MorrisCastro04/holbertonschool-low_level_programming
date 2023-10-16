@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *
- *
- *
+ *main - stars the program
+ *descripton: print all 15 hexadecimal
+ *Return: Return 0 always
  */
 
 int main(void)
