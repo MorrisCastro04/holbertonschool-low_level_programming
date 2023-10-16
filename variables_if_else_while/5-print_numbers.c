@@ -10,7 +10,7 @@ int main(void)
 { int n;
 
 	for(n = 0; n <= 10; n++)
-	{ putint(n);
+	{ printf(%d, n);
 	}
 	return (0);
 }
