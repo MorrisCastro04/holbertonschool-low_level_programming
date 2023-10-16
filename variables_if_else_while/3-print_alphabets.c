@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *
- *
- *
+ *main - main starts the program
+ *description: print the alphabet in lowercase and uppercase
+ *Return: Return 0 always
  *
  */
 
