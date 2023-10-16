@@ -7,8 +7,7 @@
 
 int main(void)
 {
-	int n;
-	char a_f;
+	char a_f, n;
 
 	for (n = '0'; n <= '15'; n++)
 	{
