@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *
- *
- *
+ *main - starts the program
+ *description: dont print e and q
+ *Return: Return 0 always
  */
 int main(void)
 {
