@@ -10,12 +10,10 @@ int main(void)
 	
 	for(a_z = 'a'; a_z <= 'z'; a_z++)
 	{
-		if (a_z == 'q' || a_z == 'e')
-		{ null;
-		}else
+		if (!a_z == 'q' && !a_z == 'e')
 		{ putchar(a_z);
 		}
-	}putchar('\n');
+	} putchar('\n');
 	return(0);
 }
 
