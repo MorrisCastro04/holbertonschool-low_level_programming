@@ -11,7 +11,7 @@ void print_alphabet(void);
 
 int main(void)
 {
-	print_alphabet(void)
+	print_alphabet()
 	{ for (char a_z = 'a' ; a_z <= 'z' ; a_z++)
 		{ putchar(a_z);
 		}
