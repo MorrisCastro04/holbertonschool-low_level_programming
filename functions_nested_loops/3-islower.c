@@ -3,7 +3,7 @@
 /**
  *_islower - print if the letter is lowercase
  *Return: Return 0 always
- *
+ *c is a parameter thats conting a letter
  *
  */
 
