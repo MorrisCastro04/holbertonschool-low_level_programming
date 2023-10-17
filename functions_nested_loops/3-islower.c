@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_islower: starts the program to look if the latter is lowercase
- *int c: is  variable that have a number between 97 and 122
+ *_islower -  starts the program 
  *description: the program look if the letter is lowercase
  *Return: Return 0 always
  */
