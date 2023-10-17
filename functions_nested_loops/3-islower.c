@@ -3,8 +3,8 @@
 /**
  *_islower: print if the letter is lowercase
  *c: is a variable that have letters
+ *description: the program look if the letter is lowercase
  *Return: Return 0 always
- *
  */
 
 int _islower(int c)
