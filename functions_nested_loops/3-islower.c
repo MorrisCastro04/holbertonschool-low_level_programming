@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ *char c: id a variable that containg letters
  *_islower - print if the letter is lowercase
  *Return: Return 0 always
- *c: is a parameter thats conting a letter
  *
  */
 
