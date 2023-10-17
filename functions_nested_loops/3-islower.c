@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
+ *_islower - print if the letter is lowercase
+ *Return: Return 0 always
  *
  *
  */
