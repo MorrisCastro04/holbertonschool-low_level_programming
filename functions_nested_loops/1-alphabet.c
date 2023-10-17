@@ -6,7 +6,7 @@
  *
  *
  */
-void print_alphabet()
+print_alphabet()
 {
 char a_z = 'a';
 
