@@ -8,11 +8,12 @@
  */
 
 int main(void)
-{ char a_z;
+{ char a_z = 'a';
 
-	for (a_z = 'a' ; a_z <= 'z' ; a_z++)
+	while (a_z <= 'z')
 	{
-	   	_putchar(a_z);
+		_putchar(a_z);
+		a_z++;
 	}
 	_putchar('\n');
 	return (0);
