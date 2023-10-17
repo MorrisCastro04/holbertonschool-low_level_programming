@@ -16,5 +16,4 @@ char a_z = 'a';
 		a_z++;
 	}
 	_putchar('\n');
-	return (0);
 }
