@@ -11,12 +11,9 @@ void print_alphabet(void);
 
 int main(void)
 {
-	print_alphabet()
-	{ for (char a_z = 'a' ; a_z <= 'z' ; a_z++)
-		{ putchar(a_z);
-		}
+	for (char a_z = 'a' ; a_z <= 'z' ; a_z++)
+	{ _putchar(a_z);
 	}
-	print_alphabet();
 	putchar('\n');
 	return (0);
 }
