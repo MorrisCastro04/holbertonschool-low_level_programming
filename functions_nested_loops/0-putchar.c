@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
+ *main - inicia el comando
+ *description: print _putchar
+ *Return: Return o always
  *
  *
  */
