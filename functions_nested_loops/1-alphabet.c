@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
- *
+ *description: print the alphabet
  */
 void print_alphabet(void)
 {
