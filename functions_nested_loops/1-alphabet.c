@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * print_alphabet - have a char that runs the alphabet
  *description: print the alphabet
  */
 void print_alphabet(void)
