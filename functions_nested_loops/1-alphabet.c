@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include ""
 #include "main.h"
 /**
  *
@@ -7,7 +6,7 @@
  *
  *
  */
-print_alphabet()
+void print_alphabet(void)
 {
 char a_z = 'a';
 
