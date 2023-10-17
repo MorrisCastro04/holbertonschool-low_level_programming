@@ -13,12 +13,9 @@ int main(void)
 {
 	char a;
 	int b;
-
-	print_alphabet(void)
-	{
-		for (a = 'a' ; a = 'z' ; a++)
-		{ putchar(a);
-		}
+{
+	for (a = 'a' ; a = 'z' ; a++)
+	{ putchar(a);
 	}
 }
 
