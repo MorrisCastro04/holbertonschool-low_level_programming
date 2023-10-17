@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_islower -  starts the program 
- *description: the program look if the letter is lowercase
+ *_islower -  starts the program
+ *description: int c look if the letter is lowercase
  *Return: Return 0 always
  */
 
