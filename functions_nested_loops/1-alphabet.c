@@ -6,9 +6,9 @@
  *
  *
  */
-
-int main(void)
-{ char a_z = 'a';
+void print_alphabet(void)
+{
+char a_z = 'a';
 
 	while (a_z <= 'z')
 	{
@@ -18,4 +18,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
