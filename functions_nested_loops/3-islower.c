@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  *_islower -  starts the program
+ *@c: is the letter that the program is gonna check
  *description: int c look if the letter is lowercase
  *Return: Return 0 always
  */
