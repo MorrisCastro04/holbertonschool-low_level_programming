@@ -2,9 +2,10 @@
 #include "main.h"
 /**
  *_isalpha - prints the sign
+ *return (1): return 1 if the letter is lower case
  *description: this program check the cases
- *return: if is lowercase return 1 otherwise return 0
- *@c is the lleter that the program will chack
+ *return: return 0 if is not lowecase
+ *@c: is the lleter that the program will chack
  */
 
 int _isalpha(int c)
