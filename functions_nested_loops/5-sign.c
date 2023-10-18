@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
+ *print_sign - prints the sign
+ *Return: Return the values (+,1),(-,1) and (0,0)
+ *@n: variable to see if greated, equal or less that 0
  *
  */
 
