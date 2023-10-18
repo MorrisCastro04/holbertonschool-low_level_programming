@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
- *
+ *_isalpha - prints the sign
+ *description: this program check the cases
+ *return: if is lowercase return 1 otherwise return 0
+ *@c is the lleter that the program will chack
  */
 
 int _isalpha(int c)
