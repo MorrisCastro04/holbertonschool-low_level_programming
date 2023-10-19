@@ -4,7 +4,7 @@
  *_isalpha - prints the sign
  *return : return 1 if the letter is lower case
  *description: this program check the cases
- *return: return 0 if is not lowecase
+ *return: return 0 and 1
  *@c: is the lleter that the program will chack
  */
 
