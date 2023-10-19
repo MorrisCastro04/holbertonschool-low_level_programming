@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
- *
+ *jack_bauer - run a clock of 24hr
  */
 
 void jack_bauer(void)
 {
 	int min, hr;
-	for (hr = 00 ; hr <= 24 ; hr++)
+
+	for (hr = 00 ; hr <= 23 ; hr++)
 	{
-		for (min = 00 ; min <= 60 ; min++)
+		for (min = 00 ; min <= 59 ; min++)
 		{
 
 			_putchar ((hr / 10) + '0');
