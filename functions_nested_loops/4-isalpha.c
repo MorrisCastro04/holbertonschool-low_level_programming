@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *_isalpha - it will check if is lowercase ot uppercase
- *return: return 0,1
+ *Return: Return 0,1
  *@c: is the leter that the program will chack
  */
 
