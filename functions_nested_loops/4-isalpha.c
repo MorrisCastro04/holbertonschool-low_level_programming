@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *_isalpha - prints the sign
+ *_isalpha - it will check if is lowercase ot uppercase
  *return : return 1 if the letter is lower case
  *description: this program check the cases
  *return: return 0 and 1
