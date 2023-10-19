@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *print_to_98 - print all natural numbers up to 98
- *n@: is where the count starts
+ *@n: is where the count starts
  */
 
 void print_to_98(int n)
@@ -22,10 +22,10 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (i = n ; i > 98 ; i--)
+		for (i = n ; i > 97 ; i--)
 		{
 			printf("%d", i);
-			if (i !=98)
+			if (i != 98)
 			{
 				printf(", ");
 			}
