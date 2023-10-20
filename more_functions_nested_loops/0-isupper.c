@@ -11,10 +11,11 @@ int _isupper(int c)
 
 	for (i = 65 ; i <= 90 ; i++)
 	{
-		if (c == 1)
+		if (c == i)
 		{
 			return (1);
-		} else
+		}
+		else
 		{
 			return (0);
 		}
