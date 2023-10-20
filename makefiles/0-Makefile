@@ -1,2 +1,2 @@
 all:
-	make -f ./school
+	./school.c
