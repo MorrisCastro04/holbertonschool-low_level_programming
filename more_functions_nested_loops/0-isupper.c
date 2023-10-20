@@ -16,7 +16,7 @@ int _isupper(int c)
 			return (1);
 		} else
 		{
-			retunr (0);
+			return (0);
 		}
 	}
 }
