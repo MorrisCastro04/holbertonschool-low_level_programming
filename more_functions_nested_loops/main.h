@@ -1,4 +1,5 @@
 int _putchar(char c);
+int _isdigit(int c);
 int _isupper(int c);
 void times_table(void);
 int _abs(int);
