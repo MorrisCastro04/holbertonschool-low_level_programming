@@ -12,7 +12,11 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{
-		if (mult1 == num)
+		if (mult1 == mult2)
+		{
+			printf("FizzBuzz");
+		}
+		else if (mult1 == num)
 		{
 			printf("Fizz");
 			mult1 = (mult1 + 3);
