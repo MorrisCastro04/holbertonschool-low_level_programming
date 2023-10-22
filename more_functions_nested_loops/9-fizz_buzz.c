@@ -8,13 +8,14 @@
 
 int main(void)
 {
-	int num, mult;
+	int num, mult = 3;
 
 	for (num = 1; num <= 100; num++)
 	{
-		for (mult = 3; mult == num; mult *= 3)
+		if (mult == num)
 		{
 			printf("Fizz");
+			mult = (mult + 3);
 		}
 		printf("%d", num);
 		printf(" ");
