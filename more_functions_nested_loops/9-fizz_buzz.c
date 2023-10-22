@@ -12,7 +12,7 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{
-		for (mult = 3;mult <= 100; mult *= 3)
+		for (mult = 3; mult == num; mult *= 3)
 		{
 			printf("Fizz");
 		}
