@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *
- *
+ *main - starts the program
+ *Return: Return 0 always
  *
  *
  */
@@ -37,5 +37,6 @@ int main(void)
 		}
 		printf(" ");
 	}
+	printf("\n");
 	return(0);
 }
