@@ -8,14 +8,19 @@
 
 int main(void)
 {
-	int num, mult = 3;
+	int num, mult1 = 3, mult2 = 5;
 
 	for (num = 1; num <= 100; num++)
 	{
-		if (mult == num)
+		if (mult1 == num)
 		{
 			printf("Fizz");
-			mult = (mult + 3);
+			mult1 = (mult1 + 3);
+		}
+		else if (mult2 == num)
+		{
+			printf("Buzz");
+			mult2 = (mult2 + 5);
 		}
 		printf("%d", num);
 		printf(" ");
