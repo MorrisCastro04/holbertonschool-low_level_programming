@@ -1,23 +1,28 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
- *
+ *print_diagonal - funcion to print diagonals
+ *@n: number of times that diagonal will print
  */
 
 void print_diagonal(int n)
 {
 	int i, spc;
 
-	for (i = 0 ; i < n ; i++)
+	if (n >= 1)
 	{
-		for (spc = 0 ; spc < i ; spc++)
+		for (i = 0 ; i < n ; i++)
 		{
-			_putchar(' ');
+			for (spc = 0 ; spc < i ; spc++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }
