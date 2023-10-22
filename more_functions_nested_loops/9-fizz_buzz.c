@@ -12,7 +12,7 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{
-		if (mult1 == mult2)
+		if (mult1 == num && mult2 == num)
 		{
 			printf("FizzBuzz");
 		}
