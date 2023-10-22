@@ -15,6 +15,8 @@ int main(void)
 		if (mult1 == num && mult2 == num)
 		{
 			printf("FizzBuzz");
+			mult1 = (mult1 + 3);
+			mult2 = (mult2 + 5);
 		}
 		else if (mult1 == num)
 		{
