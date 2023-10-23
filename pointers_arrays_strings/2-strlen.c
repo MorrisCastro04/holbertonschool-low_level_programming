@@ -1,17 +1,19 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
+ *_strlen - prints the lenght of a array
+ *@s: is where the array is
+ *Return: Return how long is the array
  */
 
 int _strlen(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i <= *s; i++)
+	while (*s != '\0')
 	{
-		_putchar(*(s + i));
+		i++;
+		s++;
 	}
+	return (i);
 }
