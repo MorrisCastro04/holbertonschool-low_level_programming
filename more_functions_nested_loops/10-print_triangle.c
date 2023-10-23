@@ -19,10 +19,9 @@ void print_triangle(int size)
 	{
 		for (trg = 1; trg <= size; trg++)
 		{
-			if (size > trg)
+			if (size > lines)
 			{
 				_putchar(' ');
-				trg++;
 			}
 			else
 			{
