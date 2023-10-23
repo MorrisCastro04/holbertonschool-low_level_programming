@@ -19,7 +19,7 @@ void print_triangle(int size)
 	{
 		for (trg = 1; trg <= size; trg++)
 		{
-			if ((size - 1) >= lines)
+			if ((size - trg) >= lines)
 			{
 				_putchar(' ');
 			}
