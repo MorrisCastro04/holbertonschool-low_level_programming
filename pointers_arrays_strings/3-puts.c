@@ -14,6 +14,8 @@ void _puts(char *str)
 	for (i = 0; i <= *str; i++)
 	{
 		if (*str != '\0')
+		{
 			_putchar(*str);
+		}
 	}
 }
