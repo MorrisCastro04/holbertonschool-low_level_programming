@@ -12,7 +12,14 @@ void print_array(int *a, int n)
 
 	for (lengh = 0; lengh < n; lengh++)
 	{
-		printf("%d, ", a[lengh]);
+		if (lengh != n)
+		{
+			printf("%d, ", a[lengh]);
+		}
+		else
+		{
+			printf("%d", a[lengh]);
+		}
 	}
 	_putchar('\n');
 }
