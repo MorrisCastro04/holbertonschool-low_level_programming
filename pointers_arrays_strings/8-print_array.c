@@ -10,12 +10,9 @@ void print_array(int *a, int n)
 {
 	int lengh;
 
-	while (a[lengh] != '\0')
+	for (lengh = 0; lengh < n; lengh++)
 	{
-		lengh++;
+		printf("%d, ", a[lengh]);
 	}
-	for (n = 0; n <= a[lengh]; n++)
-	{
-		printf("%d, ", a[n]);
-	}
+	_putchar('\n');
 }
