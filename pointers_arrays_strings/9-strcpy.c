@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strcpy - copy a string
+ *_strcpy - runs a script that copy and paste the string
  *@dest: where is gonna paste the string
  *@src: where is the string
  *Return = Return the string
