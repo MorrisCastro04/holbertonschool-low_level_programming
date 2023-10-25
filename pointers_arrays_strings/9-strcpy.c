@@ -3,7 +3,7 @@
  *_strcpy - runs a script that copy and paste the string
  *@dest: where is gonna paste the string
  *@src: where is the string
- *Return = Return the string
+ *Return: Return the string
  */
 
 char *_strcpy(char *dest, char *src)
