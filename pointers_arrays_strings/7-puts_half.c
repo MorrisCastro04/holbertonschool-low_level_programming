@@ -23,13 +23,13 @@ void puts_half(char *str)
 			n++;
 		}
 	}
-	if else (n <= (i -1) / 2 && str[n] != '\0')
+	else if (n < (i - 1) / 2)
 	{
 		n++;
-		continue;
 	}
 	else
 	{
 		_putchar(half);
 	}
+	
 }
