@@ -18,7 +18,7 @@ int _atoi(char *s)
 	{
 		if (*lengh == '-')
 		{
-			c = c *= -1;
+			c *= -1;
 		}
 		lengh++;
 	}
