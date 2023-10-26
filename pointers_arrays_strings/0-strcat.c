@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strcat = concatenate 2 strings
+ *_strcat - concatenate 2 strings
  *@dest: where the 2 string need to be
  *@src: the string that is going to move
  *Return: Return the full string
