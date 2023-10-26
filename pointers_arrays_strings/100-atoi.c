@@ -7,14 +7,19 @@
 
 int _atoi(char *s)
 {
-	int c = 1;
-	unsigned int num = 0;
-	char *lengh = s;
+	int c;
+	unsigned int num;
+	char *lengh;
 
+	c = 1;
+	num = 0;
+	lengh = s;
 	while (*lengh != '\0' && (*lengh < '0' || *lengh > 9))
 	{
 		if (*lengh == '-')
-				c *= -1;
+		{
+			c = c *= -1;
+		}
 		lengh++;
 	}
 	if (*lengh != '\0')
