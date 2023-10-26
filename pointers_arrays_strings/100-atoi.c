@@ -24,10 +24,11 @@ int _atoi(char *s)
 	}
 	if (*lengh != '\0')
 	{
-		do {
+		while (*lengh >= 0 && *lengh <= 9)
+		{
 			num = num * 10 + (*lengh - '0');
 			lengh++;
-		} while (*lengh >= '0' && *lengh <= '9');
+		}
 	}
 	return (num * c);
 }
