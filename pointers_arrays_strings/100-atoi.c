@@ -7,27 +7,52 @@
 
 int _atoi(char *s)
 {
-	int c;
-	unsigned int num;
+	int i, j, n, convert, mul, sum, r;
 
-	c = 1;
-	num = 0;
-	while (*s != '\0' && (*s < '0' || *s > 9))
+	char *d, *a;
+
+	n = 0;
+	mul = 1;
+	convert = 0;
+	sum = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (*s == '-')
+		if (s[i] == '-')
 		{
-			c *= -1;
+			n++;
 		}
-		s++;
+		if (s[i] > 47 && s[i] < 58)
+		{
+			d = s + i;
+			break;
+		}
 	}
-	if (*s != '\0')
+
+	for (j = 0; d[j] != '\0'; j++)
 	{
-		while (*s >= 0 && *s <= 9)
+		if (d[j] < 48 || d[j] > 57)
 		{
-			num = num * 10 + (*s - '0');
-			s++;
+			d[j] = '\0';
+			break;
 		}
 	}
-	return (num * c);
+	a = d + (j - 1);
+
+	while (a != d - 1)
+	{
+		convert = *a - 48;
+		sum += convert * mul;
+		mul = mul * 10;
+		a--;
+	}
+
+	if (!n % 2 == 0)
+	{
+		r = sum * -1;
+		return (r);
+	}
+
+	return (sum);
+
 }
-
