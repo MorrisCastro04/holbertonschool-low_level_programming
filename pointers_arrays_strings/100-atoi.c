@@ -7,52 +7,39 @@
 
 int _atoi(char *s)
 {
-	int i, j, n, convert, mul, sum, r;
+	int i, d, n, len, f, digit;
 
-	char *d, *a;
-
+	i = 0;
+	d = 0;
 	n = 0;
-	mul = 1;
-	convert = 0;
-	sum = 0;
+	len = 0;
+	f = 0;
+	digit = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[len] != '\0')
+		len++;
+
+	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
+			++d;
+
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			n++;
+			digit = s[i] - '0';
+			if (d % 2)
+				digit = -digit;
+			n = n * 10 + digit;
+			f = 1;
+			if (s[i + 1] < '0' || s[i + 1] > '9')
+				break;
+			f = 0;
 		}
-		if (s[i] > 47 && s[i] < 58)
-		{
-			d = s + i;
-			break;
-		}
+		i++;
 	}
 
-	for (j = 0; d[j] != '\0'; j++)
-	{
-		if (d[j] < 48 || d[j] > 57)
-		{
-			d[j] = '\0';
-			break;
-		}
-	}
-	a = d + (j - 1);
+	if (f == 0)
+		return (0);
 
-	while (a != d - 1)
-	{
-		convert = *a - 48;
-		sum += convert * mul;
-		mul = mul * 10;
-		a--;
-	}
-
-	if (!n % 2 == 0)
-	{
-		r = sum * -1;
-		return (r);
-	}
-
-	return (sum);
-
+	return (n);
 }
