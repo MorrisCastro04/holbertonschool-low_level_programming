@@ -10,7 +10,7 @@ char *leet(char *str)
 {
 	int i, lengh;
 
-	lengh = 0
+	lengh = 0;
 	while(str[lengh] != '\0')
 	{
 		lengh++;
