@@ -20,6 +20,7 @@ char *leet(char *str)
 		if (str[lengh] == 'o' || str[lengh] == 'O')
 		{
 			str[lengh] = '0';
+			str[lengh] = str[lengh + '0'];
 		}
 	}
 	return (str);
