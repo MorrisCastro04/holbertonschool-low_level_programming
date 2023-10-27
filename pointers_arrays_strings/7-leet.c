@@ -17,10 +17,10 @@ char *leet(char *str)
 	}
 	for (i = 0; i < lengh; i++)
 	{
-		if (str[lengh] == 'o' || str[lengh] == 'O')
+		if (str[i] == 'o' || str[i] == 'O')
 		{
-			str[lengh] = '0';
-			str[lengh] = str[lengh + '0'];
+			str[i] = '0';
+			str[i] = str[i + '0'];
 		}
 	}
 	return (str);
