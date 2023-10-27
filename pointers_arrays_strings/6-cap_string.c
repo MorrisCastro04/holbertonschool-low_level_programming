@@ -17,7 +17,7 @@ char *cap_string(char *str)
 		{
 			str[i] -= 32;
 		}
-		for (lengh = 0; lengh <= 13; lengh++)
+		for (lengh = 0; lengh < 13; lengh++)
 		{
 			if (str[i] == array[lengh])
 			{
