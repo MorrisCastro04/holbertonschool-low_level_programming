@@ -2,7 +2,7 @@
 /**
  *_strcmp - compare two strings
  *@s1: first string to compare
- *@2; second string to compare
+ *@2: second string to compare
  *Return: Return the diference of ASCII
  */
 
