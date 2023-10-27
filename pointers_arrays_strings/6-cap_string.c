@@ -1,4 +1,4 @@
-#incluide "main.h"
+#include "main.h"
 /**
  *cap_string - capitalizes all words
  *@str: the string
@@ -13,7 +13,7 @@ char *cap_string(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == 0 && str[i] >= 'a' $$ str[i] <= 'z')
+		if (str[i] == 0 && str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] -= 32;
 		}
