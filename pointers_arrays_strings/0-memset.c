@@ -3,7 +3,7 @@
  *_memset - fill memory with a constant byte
  *@s: is the array
  *@b: is the string to fill the array
- *@@n: the number of times to print b
+ *@n: the number of times to print b
  *Return: Return the new array
  */
 
