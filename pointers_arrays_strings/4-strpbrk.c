@@ -3,7 +3,7 @@
  *_strpbrk - locates the first occurrence in the string
  *@s: the string
  *@accept: bytes to check in the string
- *Return: Return the string 
+ *Return: Return the string
  */
 
 char *_strpbrk(char *s, char *accept)
