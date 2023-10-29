@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if (s[i] != accept[i])
+		if (s[i] != accept[equal])
 		{
 			break;
 		}
