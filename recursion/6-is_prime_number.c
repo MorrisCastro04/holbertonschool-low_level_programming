@@ -1,33 +1,39 @@
 #include "main.h"
 /**
- * is_prime_number - find the prime number
+ * is_prime_number - 1 if n is prime, otherwise 0
  * @n: the number
- * Return: prime function
+ * Return: 1 or 0 depending if is prime or not
  */
 int is_prime_number(int n)
 {
-	return (prime(2, n));
+	return (is_prime_number2(n - 1, n));
 }
-
 /**
- * prime - calculates de prime
- * @n: given number
- * @i: does the work
- * Return: 1 if n is prime, 0 if not
- */
-int prime(int i, int n)
+ * is_prime_number2 - return value if prime or not
+ * @i: the base
+ * @n: the number
+ * Return: 0 not prime, 1 prime
+ **/
+int is_prime_number2(int i, int n)
 {
-	if (n == 0 || n == 1)
+	if (n < 0)
 	{
 		return (0);
 	}
-	if (n == i)
+	else if (n == 1)
 	{
+		return (0);
+	}
+
+	else if (n % i != 0)
+	{
+		return (is_prime_number2(i - 1, n));
+	}
+
+	else if (n % i == 0 && i > 1)
+	{
+		return (0);
+	}
+	else
 		return (1);
-	}
-	if (n % i == 0)
-	{
-		return (0);
-	}
-	return (prime(i + 1, n));
 }
