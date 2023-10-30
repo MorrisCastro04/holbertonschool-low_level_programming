@@ -20,3 +20,7 @@ int find_square_root(int root, int n)
 	return (root);
 }
 
+int _sqrt_recursion(int n)
+{
+	return (find_square_root(0, n));
+}
