@@ -4,9 +4,6 @@
  * @root: the root number
  * @n: a random number
  * Return: return square root or -1
- * _sqrt_recursion - the natural square root of a num
- * @n: random number to find square root
- * Return: the square root
  */
 int find_square_root(int root, int n)
 {
@@ -23,6 +20,11 @@ int find_square_root(int root, int n)
 	return (root);
 }
 
+/**
+ * _sqrt_recursion - return the natural square root of a number
+ * @n: random number to find square root
+ * Return: the square root
+ */
 int _sqrt_recursion(int n)
 {
 	return (find_square_root(0, n));
