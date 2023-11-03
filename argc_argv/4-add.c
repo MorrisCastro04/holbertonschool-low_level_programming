@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+#include <ctype>
 /**
  *main - stars the program
  *@argc: size of the argv array
