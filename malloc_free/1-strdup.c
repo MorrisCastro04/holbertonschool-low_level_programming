@@ -24,6 +24,8 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	copy = mall;
+
 	while (*str)
 	{
 		*copy = *str;
