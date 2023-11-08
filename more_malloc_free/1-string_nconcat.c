@@ -28,7 +28,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		lengh2 = strlen(s2);
 	}
-	size = lengh1 + lengh2;
+	if (n >= lengh2)
+	{
+		size = lengh1 + lengh2;
+	}
+	else
+	{
+		size = lengh1 + n;
+	}
 	mall = malloc(sizeof(char) * size);
 
 	if (mall == NULL)
