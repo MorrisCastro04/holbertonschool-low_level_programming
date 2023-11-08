@@ -8,13 +8,9 @@
 
 void *malloc_checked(unsigned int b)
 {
-	char *mall;
+	unsigned int *mall;
 
-	if (b == 0)
-	{
-		exit(98);
-	}
-	mall = malloc(sizeof(int) * b);
+	mall = malloc(b);
 
 	if (mall == NULL)
 	{
