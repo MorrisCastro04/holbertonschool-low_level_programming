@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
-/*
- *string_nconcat - concated n bytes
+/**
+ *string_nconcat - concatenated 2 strings n bytes
+ *@s1: the first string
+ *@s2: the second string
  *@n: the n bytes to concatenated
  *Return: Return a pointer to the string
  */
