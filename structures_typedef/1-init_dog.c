@@ -3,7 +3,7 @@
 /**
  *init_dog - inicialize var of struct dog
  *@d: pointer to the structer
- *name: dogs name
+ *@name: dogs name
  *@age: dogs age
  *@owner: dogs owner
  */
