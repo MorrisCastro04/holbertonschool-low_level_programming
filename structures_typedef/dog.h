@@ -1,3 +1,5 @@
+#ifndef dog_h
+#define dog_h
 /**
  *@char*: the name and the owner of the dog
  *@float: the age of the dog
