@@ -6,7 +6,7 @@
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i, j;
-	const hash_table_t *table_tmp;
+	const hash_table_t *table_tmp = ht;
 	hash_node_t *node_tmp;
 
 	if (ht == NULL)
