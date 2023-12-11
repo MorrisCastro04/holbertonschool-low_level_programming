@@ -5,14 +5,14 @@
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	unsigned long int i, j = 0;
+	unsigned long int i, j;
 	const hash_table_t *table_tmp;
 	hash_node_t *node_tmp;
 
 	if (ht == NULL)
 		return;
 
-	for (i = 0; i < ht->size; i++)
+	for (i = 0, j = 0; i < ht->size; i++)
 	{
 		if (ht->array[i] != NULL)
 		{
